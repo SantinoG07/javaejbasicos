@@ -45,23 +45,27 @@ triángulo. Determina y muestra si el triángulo es equilátero (todos los lados
 en la frase. Considera que las palabras están separadas por espacios.
 18. • Patrón de Asteriscos: Pide al usuario un número N. Genera y muestra un patrón de
 asteriscos en forma de triángulo (o pirámide) de N filas. Por ejemplo, si N es 4:
-19. Crea un programa que simule el lanzamiento de dos dados. Genera dos números aleatorios
+*
+**
+***
+****
+20. Crea un programa que simule el lanzamiento de dos dados. Genera dos números aleatorios
 entre 1 y 6 (inclusive) para representar el resultado de cada dado. Muestra el valor de cada
 dado y la suma total.
-20. Pide al usuario la longitud deseada para una contraseña. Genera una contraseña aleatoria que
+21. Pide al usuario la longitud deseada para una contraseña. Genera una contraseña aleatoria que
 contenga una mezcla de letras minúsculas, mayúsculas y números, de la longitud
 especificada. Por ejemplo, si el usuario pide una longitud de 8, la contraseña podría ser
 &quot;aB7cD2eF&quot;.
-21. Crea un arreglo (array) de 10 números enteros. Pide al usuario que ingrese un número X.
+22. Crea un arreglo (array) de 10 números enteros. Pide al usuario que ingrese un número X.
 Utiliza un bucle for-each para recorrer el arreglo y contar cuántos elementos son mayores que
 X. Muestra el resultado por consola.
-22. Declara un arreglo de tipo double para almacenar 5 calificaciones. Pide al usuario que ingrese
+23. Declara un arreglo de tipo double para almacenar 5 calificaciones. Pide al usuario que ingrese
 estas calificaciones. Utiliza un bucle for-each para calcular el promedio de las calificaciones
 y luego muestra el resultado.
-23. Crea un arreglo (array) de 5 cadenas de texto (por ejemplo, nombres de ciudades). Pide al
+24. Crea un arreglo (array) de 5 cadenas de texto (por ejemplo, nombres de ciudades). Pide al
 usuario que ingrese una cadena de texto para buscar. Utiliza un bucle for-each para
 determinar si la cadena ingresada se encuentra en el arreglo. Muestra un mensaje indicando si
 se encontró o no.
-24. Pensar y desarrollar un ejemplo donde se vea el uso del for-each y comentarlo
+25. Pensar y desarrollar un ejemplo donde se vea el uso del for-each y comentarlo
 pertinentemente
-25. Realizar una calculadora con operaciones aritméticas simples (+,-,*,/)
+26. Realizar una calculadora con operaciones aritméticas simples (+,-,*,/)
