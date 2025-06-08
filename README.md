@@ -45,10 +45,6 @@ triángulo. Determina y muestra si el triángulo es equilátero (todos los lados
 en la frase. Considera que las palabras están separadas por espacios.
 18. • Patrón de Asteriscos: Pide al usuario un número N. Genera y muestra un patrón de
 asteriscos en forma de triángulo (o pirámide) de N filas. Por ejemplo, si N es 4:
-*
-**
-***
-****
 19. Crea un programa que simule el lanzamiento de dos dados. Genera dos números aleatorios
 entre 1 y 6 (inclusive) para representar el resultado de cada dado. Muestra el valor de cada
 dado y la suma total.
