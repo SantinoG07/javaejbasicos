@@ -2,7 +2,7 @@ import java.util.Objects;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        String frase;
+        String frase, contrasena="";
         int longitud;
         boolean flag=true;
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,11 @@ public class Main {
 
         String caracteres = minusculas + mayusculas + numeros;
 
-
+        for (int i = 0; i < longitud; i++) {
+            int indice= (int) (Math.random()*caracteres.length());
+            contrasena+=caracteres.charAt(indice);
+        }
+        System.out.println("Su contraseña es: "+contrasena);
 
     }
-}dwqd
+}
