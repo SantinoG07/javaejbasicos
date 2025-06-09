@@ -1,4 +1,3 @@
-import java.util.Objects;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -14,13 +13,14 @@ public class Main {
         String mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String numeros = "0123456789";
 
-        String caracteres = minusculas + mayusculas + numeros;
+        String caracteres = minusculas + mayusculas + numeros; // Une todos los caracteres posibles
 
         for (int i = 0; i < longitud; i++) {
-            int indice= (int) (Math.random()*caracteres.length());
-            contrasena+=caracteres.charAt(indice);
+            int indice= (int) (Math.random()*caracteres.length()); // Genera un indice aleatorio
+            contrasena += caracteres.charAt(indice); // Agrega el caracter aleatorio a la contraseña
         }
-        System.out.println("Su contraseña es: "+contrasena);
+        System.out.println("Su contraseña es: " + contrasena); // Muestra la contraseña generada
+
 
     }
 }
